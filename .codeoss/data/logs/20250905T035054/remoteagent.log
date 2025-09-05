@@ -1,0 +1,14 @@
+2025-09-05 03:50:55.024 [info] 
+
+
+
+
+2025-09-05 03:50:55.047 [info] Extension host agent started.
+2025-09-05 03:50:55.071 [info] Started initializing default profile extensions in extensions installation folder. file:///home/padesigner2021/.codeoss/extensions
+2025-09-05 03:50:55.077 [info] ComputeTargetPlatform: linux-x64
+2025-09-05 03:50:55.097 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/padesigner2021/.codeoss/extensions
+2025-09-05 03:50:56.024 [info] [127.0.0.1][7d6f353e][ExtensionHostConnection] New connection established.
+2025-09-05 03:50:56.026 [info] [127.0.0.1][d214be8b][ManagementConnection] New connection established.
+2025-09-05 03:50:59.712 [info] [127.0.0.1][7d6f353e][ExtensionHostConnection] <1272> Launched Extension Host Process.
+2025-09-05 03:53:55.262 [info] [127.0.0.1][d214be8b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-05 03:53:55.410 [info] [127.0.0.1][7d6f353e][ExtensionHostConnection] <1272> Extension Host Process exited with code: 0, signal: null.

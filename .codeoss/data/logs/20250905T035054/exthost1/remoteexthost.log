@@ -1,0 +1,44 @@
+2025-09-05 03:51:01.284 [info] Extension host with pid 1272 started
+2025-09-05 03:51:01.284 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-05 03:51:01.287 [info] Lock '/home/padesigner2021/.codeoss/data/User/workspaceStorage/7bc46bea/vscode.lock': Lock acquired.
+2025-09-05 03:51:01.361 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-05 03:51:01.399 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-05 03:51:01.400 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-05 03:51:01.780 [info] Eager extensions activated
+2025-09-05 03:51:01.780 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-09-05 03:51:01.781 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-09-05 03:51:01.781 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-09-05 03:51:01.782 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-05 03:51:01.782 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-09-05 03:51:01.783 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-05 03:51:04.153 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-05 03:51:04.154 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-05 03:51:04.154 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-05 03:51:04.507 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-09-05 03:51:08.079 [error] CodeExpectedError: cannot open vscode-remote://970-cs-15c7f768-4d01-4e9b-9f48-2f696532dadb.cs-asia-southeast1-cash.cloudshell.dev/home/padesigner2021/cloudshell_open/cloud-shell-tutorials. Detail: Unable to read file 'vscode-remote://970-cs-15c7f768-4d01-4e9b-9f48-2f696532dadb.cs-asia-southeast1-cash.cloudshell.dev/home/padesigner2021/cloudshell_open/cloud-shell-tutorials' (Error: Unable to read file 'vscode-remote://970-cs-15c7f768-4d01-4e9b-9f48-2f696532dadb.cs-asia-southeast1-cash.cloudshell.dev/home/padesigner2021/cloudshell_open/cloud-shell-tutorials' that is actually a directory)
+    at G3e.$tryOpenDocument (https://970-cs-15c7f768-4d01-4e9b-9f48-2f696532dadb.cs-asia-southeast1-cash.cloudshell.dev/cde-bab2371203ab2b584fbcb18199bd62f4957eab63/static/out/vs/code/browser/workbench/workbench.js:1276:8652)
+2025-09-05 03:52:47.216 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-09-05 03:52:47.216 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-09-05 03:53:55.271 [info] Extension host terminating: received terminate message from renderer
+2025-09-05 03:53:55.272 [info] Lock '/home/padesigner2021/.codeoss/data/User/workspaceStorage/7bc46bea/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-09-05 03:53:55.338 [error] [vscode.json-language-features] provider FAILED
+2025-09-05 03:53:55.342 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2431)
+    at Object.appendLine (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2570)
+    at R.logOutputMessage (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:316524)
+    at R.error (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:316415)
+    at R.handleFailedRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:340284)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:362233
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at g4.provideColors (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:145:151079)
+2025-09-05 03:53:55.353 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2431)
+    at Object.append (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2528)
+    at t.FileLoggableOutputChannel.append (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/packages/utils/loggable_output_channel.ts:35:30)
+    at Socket.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/node_modules/vscode-languageclient/lib/node/main.js:430:80)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-09-05 03:53:55.360 [info] Extension host with pid 1272 exiting with code 0
