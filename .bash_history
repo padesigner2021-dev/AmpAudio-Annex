@@ -21,3 +21,13 @@ npm install -g firebase-tools
 npm fund
 cloudshell_open --repo_url "https://github.com/GoogleCloudPlatform/cloud-shell-tutorials" --page "editor" --tutorial "cloudsdk/tutorial.md" --force_new_clone
 git push origin main
+git add .
+git commit -m "Implement full Firebase backend and fix critical bugs"
+git push origin main
+git rev-list --objects --all | grep blobid
+git rev-list --objects --al1
+git rev-list --objects --all | grep blobid
+git push origin main
+git lfs install
+git add .gitattributes
+git push origin main
