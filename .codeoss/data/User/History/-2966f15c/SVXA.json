@@ -1,0 +1,17 @@
+[
+  {
+    "origin": [
+      "http://localhost:9002",
+      "https://ampaudio-annex.firebaseapp.com",
+      "https://ampaudio-annex.web.app",
+      "https://www.paelektronik.my" 
+      "https://studio--ampaudio-annex.us-central1.hosted.app"
+    ],
+    "method": ["GET", "HEAD", "PUT", "POST", "DELETE"],
+    "responseHeader": [
+      "Content-Type",
+      "Access-Control-Allow-Origin"
+    ],
+    "maxAgeSeconds": 3600
+  }
+]
